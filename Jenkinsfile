@@ -11,12 +11,7 @@ pipeline {
                 sh 'ls'
             }
         }
-        stage('run tests') {
-            steps {
-                sh 'ls'
-            }
-        }
-        stage('publish test results') {
+        stage('run tests and publish test results') {
             steps {
                 sh 'ls'
             }
